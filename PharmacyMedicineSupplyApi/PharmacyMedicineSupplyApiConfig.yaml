@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pharmacymedincesupply
-        image: dockcrs.azurecr.io/pharmacymedincesupply:latest
+        image: dock1cr.azurecr.io/pharmacymedincesupply:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
